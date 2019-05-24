@@ -1,0 +1,31 @@
+
+
+body{
+    font-family: Arial MT;
+    display: flex;
+    justify-content: center;
+ 
+}
+ a{
+    color:#2f2f2f;
+    text-decoration: underline;
+}
+h1,h2,p,span{
+    color: #2f2f2f;
+}
+
+.bold {
+    font-family: Arial;
+    font-weight: bold;
+}
+.container {
+    width: 490px;
+    background-color: #ffffff;
+}
+
+img{
+    height: 10px;
+    width: 12px;
+}
+
+

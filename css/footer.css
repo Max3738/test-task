@@ -1,0 +1,33 @@
+.footer {
+min-height: 193px;
+margin-top:20px;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer__textarea{
+    position: absolute;
+    height: 65px;
+    width: 451px;
+    display: block;
+    top: 30px;
+}
+.footer .footer__button{
+    background-color: #fdd639;
+    width: 280px;
+    height: 33px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translateY(126px);
+    text-decoration: none;
+    padding: 14px 0px 0px 0px;
+ 
+}
+.footer .footer__button:hover{
+    background-color:  #f2f2f2;
+    color:#fdd639;
+    transition: 0.9s;
+    border-color: #fdd639;
+
+}

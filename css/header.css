@@ -1,0 +1,166 @@
+.header {
+    padding-left: 103px;
+    display: block;
+    
+}
+.header .header__name{
+	padding-left:55px;
+	color: #2F2F2F;
+    font-size: 16px;
+    transform: translateY(-3px);
+}
+.header .header__position{
+    padding-left:55px;
+    font-size: 12px;
+    transform: translateY(-9px);
+    color:#818181;
+}
+.header .header-status{
+	width: 370px;
+    position: relative;
+    background: #FFFBC7;
+    display:block;
+	height: 55px;
+	transform: translateY(-12px);
+    border-radius:5px;
+    border:1px solid #D1CBC0;
+}
+
+.header .header-status .header-status__about{
+
+    display: block;
+    transform: translateY(-7px);
+    line-height:20px;
+    font-size:14px;
+ text-align:left;
+   
+    padding-left:55px;
+}
+.header .header-status:before{
+    content: ""; 
+    background-image: url('../img/avatar.png');
+    background-size: 120px 120px; 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    background-repeat: no-repeat; 
+	margin-top: -56px;
+
+	margin-left: -77px;
+    position: absolute;
+   }
+
+
+
+   
+.header .header-services-table{
+border-collapse: collapse;
+width: 315px;
+margin:0px 0px 35px 55px;
+
+}
+.header .header-services-table .td{
+    text-align:right;
+	font-size:13px;
+	padding-left: 47px;
+
+}
+.header .header-services-table .header-services-table-first-line
+.header-services-table-first-line__header {
+	color: #333333;
+	transform: translateX(22px);
+	font-size: 13px;
+	padding: 0px 0 12px 0;
+}
+
+.header .summary {
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+.header .summary-value {
+	padding-top: 15px;
+	font-size: 16px;
+	text-align: right;
+}
+
+.header .header-services-table-second-line,
+.header-services-table-third-line,
+.header-services-table-forth-line {
+	border-left: 1px solid #cdcdcd;
+}
+
+.header .handfill,
+.tours,
+.hotels {
+	font-size: 13px;
+	padding: 0px 0px 10px 8px;
+	display: block;
+	transform: translateY(4px);
+}
+
+.header .right-cell {
+	width: 10%;
+}
+
+.header .description {
+	width: 72%;
+	position: relative;
+}
+
+.header .green {
+	background: #9ae298;
+	height: 24px;
+	width: 219px;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.header .handfill {
+	position: absolute;
+	z-index: 1;
+}
+
+.header .blue-1 {
+	background: #91E3F9;
+	height: 24px;
+	width: 54px;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.header .tours {
+	position: absolute;
+	z-index: 1;
+}
+
+.header .blue-2 {
+	background: #91E3F9;
+	height: 24px;
+	width: 38px;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.header .hotels {
+	position: absolute;
+	z-index: 1;
+}
+
+.header .header-services-table-first-line {
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.header .header-services-table-last-line {
+	border-top: 1px solid #cdcdcd;
+}
+
+.header-services-table-first-line__empty-right{
+	  width: 100%;
+}

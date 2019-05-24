@@ -1,0 +1,78 @@
+@media (max-width: 600px) {
+	.container {
+		width: 75%;
+	}
+	.header .header-status {
+		width: 99%;
+	}
+	main .comment-wrap {
+		margin-top: 6%;
+	}
+	.header .header-services-table {
+		padding: 5px;
+	}
+	.footer .footer__textarea {
+		width: 50%;
+	}
+	.header .green {
+		width: 110px;
+	}
+	.header .blue-1 {
+		width: 110px;
+	}
+	.header .blue-2 {
+		width: 19px;
+	}
+	.header {
+		padding-left: 3px;
+	}
+	.header .handfill,
+	.tours,
+	.hotels {
+		font-size: 10px;
+	}
+	.header .header-status {
+		transform: translateY(0px);
+	}
+	.header .header-status:before {
+		background-size: 97px 97px;
+		width: 97px;
+		height: 97px;
+		border-radius: 5%;
+		margin-top: -99px;
+		margin-left: 205px;
+	}
+	.header .header-services-table {
+		width: 85%;
+	}
+	.header .header-status {
+		height: auto;
+	}
+	.main .main-top .main-top__hart {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 420px) {
+	.header .header-status:before {
+		background-size: 70px 70px;
+		width: 70px;
+		height: 70px;
+		border-radius: 5%;
+		margin-top: -79px;
+		margin-left: -2px;
+	}
+	.header .header__name {
+		padding-left: 72px;
+		font-size: 5vw;
+	}
+	.header .header__position {
+		padding-left: 72px;
+	}
+	.main .main-top .main-top__all-comments {
+		font-size: 3vw;
+	}
+	.main .main-top .main-top__last-comments {
+		font-size: 3vw;
+	}
+}
